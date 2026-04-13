@@ -28,5 +28,5 @@ class Router {
 // 注册路由
 $router = new Router();
 $router->get('/', function() {
-    require __DIR__ . '/pages/articleList.php';
+    require __DIR__ . '/pages/sample.php';
 });
